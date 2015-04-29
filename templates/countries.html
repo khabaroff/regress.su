@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+{% for country in countries %}
+
+{% if (loop.index) % 4 == 1  %}
+
+    <div class="row">
+        <div class="large-3 medium-3 columns">
+
+            <div class="country">
+
+                <img src="/flags/{{country.flag}}">
+
+                <div class="countryname">{{country.name}}</div>
+                <div class="countrycounter">22</div>
+                <div class="countrylikes">LIKES</div>
+            </div>
+
+
+        </div>
+
+
+    {% elseif loop.index%4 == 0 %}
+
+        <div class="large-3 medium-3 columns">
+
+            <div class="country">
+
+                <img src="/flags/{{country.flag}}">
+
+                <div class="countryname">{{country.name}}</div>
+                <div class="countrycounter">22</div>
+                <div class="countrylikes">LIKES</div>
+            </div>
+
+
+        </div>
+</div>
+
+{% else %}
+
+<div class="large-3 medium-3 columns">
+
+    <div class="country">
+
+        <img src="/flags/{{country.flag}}">
+
+        <div class="countryname">{{country.name}}</div>
+        <div class="countrycounter">22</div>
+        <div class="countrylikes">LIKES</div>
+    </div>
+
+
+</div>
+{% endif %}
+
+{% endfor %}
+{% endblock %}
+
+
+
+
