@@ -191,7 +191,7 @@ gulp.task('shares', function (callback) {
         var countryImage = countries[country]
 
         var html = template.render({
-            siteUrl: '../',
+            siteUrl: '/',
             ogImage: countryImage
         })
 
