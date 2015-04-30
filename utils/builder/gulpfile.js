@@ -190,9 +190,11 @@ gulp.task('shares', function (callback) {
     Object.keys(countries).forEach(function (country) {
         var countryImage = countries[country]
 
+        var niceName = countries[share]
+
         var html = template.render({
             siteUrl: '/',
-            ogImage: countryImage
+            sharePart: niceName
         })
 
         var filename = country.toLowerCase().replace(/\s+/g, '-')
