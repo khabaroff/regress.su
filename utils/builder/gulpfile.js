@@ -180,25 +180,22 @@ gulp.task('shares', function (callback) {
         data: fs.readFileSync(path.join(countryTemplate.base, 'country-share.twig')).toString()
     });
 
-    var countries = {}
+    var countriesData = fs.readFileSync('countries.json').toString()
+    countriesData = JSON.parse(countriesData)
 
-    fs.readdirSync(countryTemplate.flagsDir).forEach(function (file) {
-        var country = path.basename(file, '.jpg').replace(/_+/g, ' ')
-        countries[country] = file
-    })
-
-    Object.keys(countries).forEach(function (country) {
-        var countryImage = countries[country]
-
-        var niceName = countries[share]
-
+    countriesData.forEach(function (country) {
+        var countryImage = country.flag,
+            countryName = country.name,
+            shareSharePart = country.share
 
         var html = template.render({
             siteUrl: '/',
-            sharePart: niceName
+            sharePart: shareSharePart,
+            countryName: countryName,
+            countryImage: countryImage
         })
 
-        var filename = country.toLowerCase().replace(/\s+/g, '-')
+        var filename = path.basename(countryImage.toLowerCase(), '.jpg').replace(/_+/g, '-')
 
         fs.writeFileSync(path.join(countryTemplate.outPath, filename + '.html'), html)
     })

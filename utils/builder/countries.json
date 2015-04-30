@@ -1,0 +1,967 @@
+[
+  {
+    "name": "\u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u044f",
+    "share": "\u0432 \u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u0438",
+    "flag": "Australia.jpg"
+  },
+  {
+    "name": "\u0410\u0432\u0441\u0442\u0440\u0438\u044f",
+    "share": "\u0432 \u0410\u0432\u0441\u0442\u0440\u0438\u0438",
+    "flag": "Austria.jpg"
+  },
+  {
+    "name": "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d",
+    "share": "\u0432 \u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d\u0435",
+    "flag": "Azerbaijan.jpg"
+  },
+  {
+    "name": "\u0410\u043b\u0431\u0430\u043d\u0438\u044f",
+    "share": "\u0432 \u0410\u043b\u0431\u0430\u043d\u0438\u0438",
+    "flag": "Albania.jpg"
+  },
+  {
+    "name": "\u0410\u043b\u0436\u0438\u0440",
+    "share": "\u0432 \u0410\u043b\u0436\u0438\u0440\u0435",
+    "flag": "Algeria.jpg"
+  },
+  {
+    "name": "\u0410\u043d\u0433\u043e\u043b\u0430",
+    "share": "\u0432 \u0410\u043d\u0433\u043e\u043b\u0435",
+    "flag": "Angola.jpg"
+  },
+  {
+    "name": "\u0410\u043d\u0434\u043e\u0440\u0440\u0430",
+    "share": "\u0432 \u0410\u043d\u0434\u043e\u0440\u0440\u0435",
+    "flag": "Andorra.jpg"
+  },
+  {
+    "name": "\u0410\u043d\u0442\u0438\u0433\u0443\u0430 \u0438 \u0411\u0430\u0440\u0431\u0443\u0434\u0430",
+    "share": "\u0432 \u0410\u043d\u0442\u0438\u0433\u0443\u0430 \u0438 \u0411\u0430\u0440\u0431\u0443\u0434\u0430",
+    "flag": "Antigua_and_Barbuda.jpg"
+  },
+  {
+    "name": "\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0430",
+    "share": "\u0432 \u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0435",
+    "flag": "Argentina.jpg"
+  },
+  {
+    "name": "\u0410\u0440\u043c\u0435\u043d\u0438\u044f",
+    "share": "\u0432 \u0410\u0440\u043c\u0435\u043d\u0438\u0438",
+    "flag": "Armenia.jpg"
+  },
+  {
+    "name": "\u0410\u0444\u0433\u0430\u043d\u0438\u0441\u0442\u0430\u043d",
+    "share": "\u0432 \u0410\u0444\u0433\u0430\u043d\u0438\u0441\u0442\u0430\u043d\u0435",
+    "flag": "Afghanistan.jpg"
+  },
+  {
+    "name": "\u0411\u0430\u0433\u0430\u043c\u044b",
+    "share": "\u043d\u0430 \u0411\u0430\u0433\u0430\u043c\u0430\u0445",
+    "flag": "Bahamas.jpg"
+  },
+  {
+    "name": "\u0411\u0430\u043d\u0433\u043b\u0430\u0434\u0435\u0448",
+    "share": "\u0432 \u0411\u0430\u043d\u0433\u043b\u0430\u0434\u0435\u0448",
+    "flag": "Bangladesh.jpg"
+  },
+  {
+    "name": "\u0411\u0430\u0440\u0431\u0430\u0434\u043e\u0441",
+    "share": "\u0432 \u0411\u0430\u0440\u0431\u0430\u0434\u043e\u0441\u0435",
+    "flag": "Barbados.jpg"
+  },
+  {
+    "name": "\u0411\u0430\u0445\u0440\u0435\u0439\u043d",
+    "share": "\u0432 \u0411\u0430\u0445\u0440\u0435\u0439\u043d\u0435",
+    "flag": "Bahrain.jpg"
+  },
+  {
+    "name": "\u0411\u0435\u043b\u0438\u0437",
+    "share": "\u0432 \u0411\u0435\u043b\u0438\u0437\u0435",
+    "flag": "Belize.jpg"
+  },
+  {
+    "name": "\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f",
+    "share": "\u0432 \u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u0438",
+    "flag": "Belarus.jpg"
+  },
+  {
+    "name": "\u0411\u0435\u043b\u044c\u0433\u0438\u044f",
+    "share": "\u0432 \u0411\u0435\u043b\u044c\u0433\u0438\u0438",
+    "flag": "Belgium.jpg"
+  },
+  {
+    "name": "\u0411\u0435\u043d\u0438\u043d",
+    "share": "\u0432 \u0411\u0435\u043d\u0438\u043d\u0435",
+    "flag": "Benin.jpg"
+  },
+  {
+    "name": "\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f",
+    "share": "\u0432 \u0411\u043e\u043b\u0433\u0430\u0440\u0438\u0438",
+    "flag": "Bulgaria.jpg"
+  },
+  {
+    "name": "\u0411\u043e\u043b\u0438\u0432\u0438\u044f",
+    "share": "\u0432 \u0411\u043e\u043b\u0438\u0432\u0438\u0438",
+    "flag": "Bolivia.jpg"
+  },
+  {
+    "name": "\u0411\u043e\u0441\u043d\u0438\u044f \u0438 \u0413\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430",
+    "share": "\u0432 \u0411\u043e\u0441\u043d\u0438\u0438 \u0438 \u0413\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0435",
+    "flag": "Bosnia_and_Herzegovina.jpg"
+  },
+  {
+    "name": "\u0411\u043e\u0442\u0441\u0432\u0430\u043d\u0430",
+    "share": "\u0432 \u0411\u043e\u0442\u0441\u0432\u0430\u043d\u0435",
+    "flag": "Botswana.jpg"
+  },
+  {
+    "name": "\u0411\u0440\u0430\u0437\u0438\u043b\u0438\u044f",
+    "share": "\u0432 \u0411\u0440\u0430\u0437\u0438\u043b\u0438\u0438",
+    "flag": "Brazil.jpg"
+  },
+  {
+    "name": "\u0411\u0440\u0443\u043d\u0435\u0439",
+    "share": "\u0432 \u0411\u0440\u0443\u043d\u0435\u0435",
+    "flag": "Brunei.jpg"
+  },
+  {
+    "name": "\u0411\u0443\u0440\u043a\u0438\u043d\u0430-\u0424\u0430\u0441\u043e",
+    "share": "\u0432 \u0411\u0443\u0440\u043a\u0438\u043d\u0430-\u0424\u0430\u0441\u043e",
+    "flag": "Burkina_Faso.jpg"
+  },
+  {
+    "name": "\u0411\u0443\u0440\u0443\u043d\u0434\u0438",
+    "share": "\u0432 \u0411\u0443\u0440\u0443\u043d\u0434\u0438",
+    "flag": "Burundi.jpg"
+  },
+  {
+    "name": "\u0411\u0443\u0442\u0430\u043d",
+    "share": "\u0432 \u0411\u0443\u0442\u0430\u043d\u0435",
+    "flag": "Bhutan.jpg"
+  },
+  {
+    "name": "\u0412\u0430\u043d\u0443\u0430\u0442\u0443",
+    "share": "\u0432 \u0412\u0430\u043d\u0443\u0430\u0442\u0443",
+    "flag": "Vanuatu.jpg"
+  },
+  {
+    "name": "\u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f",
+    "share": "\u0432 \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u0438",
+    "flag": "United_Kingdom.jpg"
+  },
+  {
+    "name": "\u0412\u0435\u043d\u0433\u0440\u0438\u044f",
+    "share": "\u0432 \u0412\u0435\u043d\u0433\u0440\u0438\u0438",
+    "flag": "Hungary.jpg"
+  },
+  {
+    "name": "\u0412\u0435\u043d\u0435\u0441\u0443\u044d\u043b\u0430",
+    "share": "\u0432 \u0412\u0435\u043d\u0435\u0441\u0443\u044d\u043b\u0435",
+    "flag": "Venezuela.jpg"
+  },
+  {
+    "name": "\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u044b\u0439 \u0422\u0438\u043c\u043e\u0440",
+    "share": "\u0432 \u0412\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u043c \u0422\u0438\u043c\u043e\u0440\u0435",
+    "flag": "East_Timor.jpg"
+  },
+  {
+    "name": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c",
+    "share": "\u0432\u043e \u0412\u044c\u0435\u0442\u043d\u0430\u043c\u0435",
+    "flag": "Vietnam.jpg"
+  },
+  {
+    "name": "\u0413\u0430\u0431\u043e\u043d",
+    "share": "\u0432 \u0413\u0430\u0431\u043e\u043d\u0435",
+    "flag": "Gabon.jpg"
+  },
+  {
+    "name": "\u0413\u0430\u0438\u0442\u0438",
+    "share": "\u043d\u0430 \u0413\u0430\u0438\u0442\u0438",
+    "flag": "Haiti.jpg"
+  },
+  {
+    "name": "\u0413\u0430\u0439\u0430\u043d\u0430",
+    "share": "\u0432 \u0413\u0430\u0439\u0430\u043d\u0435",
+    "flag": "Guyana.jpg"
+  },
+  {
+    "name": "\u0413\u0430\u043c\u0431\u0438\u044f",
+    "share": "\u0432 \u0413\u0430\u043c\u0431\u0438\u0438",
+    "flag": "Gambia.jpg"
+  },
+  {
+    "name": "\u0413\u0430\u043d\u0430",
+    "share": "\u0432 \u0413\u0430\u043d\u0435",
+    "flag": "Ghana.jpg"
+  },
+  {
+    "name": "\u0413\u0432\u0430\u0442\u0435\u043c\u0430\u043b\u0430",
+    "share": "\u0432 \u0413\u0432\u0430\u0442\u0435\u043c\u0430\u043b\u0435",
+    "flag": "Guatemala.jpg"
+  },
+  {
+    "name": "\u0413\u0432\u0438\u043d\u0435\u044f",
+    "share": "\u0432 \u0413\u0432\u0438\u043d\u0435\u0435",
+    "flag": "Guinea.jpg"
+  },
+  {
+    "name": "\u0413\u0432\u0438\u043d\u0435\u044f-\u0411\u0438\u0441\u0430\u0443",
+    "share": "\u0432 \u0413\u0432\u0438\u043d\u0435\u0435-\u0411\u0438\u0441\u0430\u0443",
+    "flag": "Guinea-Bissau.jpg"
+  },
+  {
+    "name": "\u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f",
+    "share": "\u0432 \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u0438",
+    "flag": "Germany.jpg"
+  },
+  {
+    "name": "\u0413\u043e\u043d\u0434\u0443\u0440\u0430\u0441",
+    "share": "\u0432 \u0413\u043e\u043d\u0434\u0443\u0440\u0430\u0441\u0435",
+    "flag": "Honduras.jpg"
+  },
+  {
+    "name": "\u0413\u0440\u0435\u043d\u0430\u0434\u0430",
+    "share": "\u0432 \u0413\u0440\u0435\u043d\u0430\u0434\u0435",
+    "flag": "Grenada.jpg"
+  },
+  {
+    "name": "\u0413\u0440\u0435\u0446\u0438\u044f",
+    "share": "\u0432 \u0413\u0440\u0435\u0446\u0438\u0438",
+    "flag": "Greece.jpg"
+  },
+  {
+    "name": "\u0413\u0440\u0443\u0437\u0438\u044f",
+    "share": "\u0432 \u0413\u0440\u0443\u0437\u0438\u0438",
+    "flag": "Georgia.jpg"
+  },
+  {
+    "name": "\u0414\u0430\u043d\u0438\u044f",
+    "share": "\u0432 \u0414\u0430\u043d\u0438\u0438",
+    "flag": "Denmark.jpg"
+  },
+  {
+    "name": "\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u043d\u0433\u043e",
+    "share": "\u0432 \u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0435 \u041a\u043e\u043d\u0433\u043e",
+    "flag": "Democratic_Republic_of_the_Congo.jpg"
+  },
+  {
+    "name": "\u0414\u0436\u0438\u0431\u0443\u0442\u0438",
+    "share": "\u0432 \u0414\u0436\u0438\u0431\u0443\u0442\u0438",
+    "flag": "Djibouti.jpg"
+  },
+  {
+    "name": "\u0414\u043e\u043c\u0438\u043d\u0438\u043a\u0430",
+    "share": "\u0432 \u0414\u043e\u043c\u0438\u043d\u0438\u043a\u0435",
+    "flag": "Dominica.jpg"
+  },
+  {
+    "name": "\u0414\u043e\u043c\u0438\u043d\u0438\u043a\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
+    "share": "\u0432 \u0414\u043e\u043c\u0438\u043d\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0439 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0435",
+    "flag": "Dominican_Republic.jpg"
+  },
+  {
+    "name": "\u0415\u0433\u0438\u043f\u0435\u0442",
+    "share": "\u0432 \u0415\u0433\u0438\u043f\u0442\u0435",
+    "flag": "Egypt.jpg"
+  },
+  {
+    "name": "\u0417\u0430\u043c\u0431\u0438\u044f",
+    "share": "\u0432 \u0417\u0430\u043c\u0431\u0438\u0438",
+    "flag": "Zambia.jpg"
+  },
+  {
+    "name": "\u0417\u0438\u043c\u0431\u0430\u0431\u0432\u0435",
+    "share": "\u0432 \u0417\u0438\u043c\u0431\u0430\u0431\u0432\u0435",
+    "flag": "Zimbabwe.jpg"
+  },
+  {
+    "name": "\u0418\u0437\u0440\u0430\u0438\u043b\u044c",
+    "share": "\u0432 \u0418\u0437\u0440\u0430\u0438\u043b\u0435",
+    "flag": "Israel.jpg"
+  },
+  {
+    "name": "\u0418\u043d\u0434\u0438\u044f",
+    "share": "\u0432 \u0418\u043d\u0434\u0438\u0438",
+    "flag": "India.jpg"
+  },
+  {
+    "name": "\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u044f",
+    "share": "\u0432 \u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u0438",
+    "flag": "Indonesia.jpg"
+  },
+  {
+    "name": "\u0418\u043e\u0440\u0434\u0430\u043d\u0438\u044f",
+    "share": "\u0432 \u0418\u043e\u0440\u0434\u0430\u043d\u0438\u0438",
+    "flag": "Jordan.jpg"
+  },
+  {
+    "name": "\u0418\u0440\u0430\u043a",
+    "share": "\u0432 \u0418\u0440\u0430\u043a\u0435",
+    "flag": "Iraq.jpg"
+  },
+  {
+    "name": "\u0418\u0440\u0430\u043d",
+    "share": "\u0432 \u0418\u0440\u0430\u043d\u0435",
+    "flag": "Iran.jpg"
+  },
+  {
+    "name": "\u0418\u0440\u043b\u0430\u043d\u0434\u0438\u044f",
+    "share": "\u0432 \u0418\u0440\u043b\u0430\u043d\u0434\u0438\u0438",
+    "flag": "Ireland.jpg"
+  },
+  {
+    "name": "\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f",
+    "share": "\u0432 \u0418\u0441\u043b\u0430\u043d\u0434\u0438\u0438",
+    "flag": "Iceland.jpg"
+  },
+  {
+    "name": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f",
+    "share": "\u0432 \u0418\u0441\u043f\u0430\u043d\u0438\u0438",
+    "flag": "Spain.jpg"
+  },
+  {
+    "name": "\u0418\u0442\u0430\u043b\u0438\u044f",
+    "share": "\u0432 \u0418\u0442\u0430\u043b\u0438\u0438",
+    "flag": "Italy.jpg"
+  },
+  {
+    "name": "\u0419\u0435\u043c\u0435\u043d",
+    "share": "\u0432 \u0419\u0435\u043c\u0435\u043d\u0435",
+    "flag": "Yemen.jpg"
+  },
+  {
+    "name": "\u041a\u0430\u0431\u043e-\u0412\u0435\u0440\u0434\u0435",
+    "share": "\u0432 \u041a\u0430\u0431\u043e-\u0412\u0435\u0440\u0434\u0435",
+    "flag": "Cape_Verde.jpg"
+  },
+  {
+    "name": "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
+    "share": "\u0432 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d\u0435",
+    "flag": "Kazakhstan.jpg"
+  },
+  {
+    "name": "\u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430",
+    "share": "\u0432 \u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0435",
+    "flag": "Cambodia.jpg"
+  },
+  {
+    "name": "\u041a\u0430\u043c\u0435\u0440\u0443\u043d",
+    "share": "\u0432 \u041a\u0430\u043c\u0435\u0440\u0443\u043d\u0435",
+    "flag": "Cameroon.jpg"
+  },
+  {
+    "name": "\u041a\u0430\u043d\u0430\u0434\u0430",
+    "share": "\u0432 \u041a\u0430\u043d\u0430\u0434\u0435",
+    "flag": "Canada.jpg"
+  },
+  {
+    "name": "\u041a\u0430\u0442\u0430\u0440",
+    "share": "\u0432 \u041a\u0430\u0442\u0430\u0440\u0435",
+    "flag": "Qatar.jpg"
+  },
+  {
+    "name": "\u041a\u0435\u043d\u0438\u044f",
+    "share": "\u0432 \u041a\u0435\u043d\u0438\u0438",
+    "flag": "Kenya.jpg"
+  },
+  {
+    "name": "\u041a\u0438\u043f\u0440",
+    "share": "\u043d\u0430 \u041a\u0438\u043f\u0440\u0435",
+    "flag": "Cyprus.jpg"
+  },
+  {
+    "name": "\u041a\u0438\u0440\u0433\u0438\u0437\u0438\u044f",
+    "share": "\u0432 \u041a\u0438\u0440\u0433\u0438\u0437\u0438\u0438",
+    "flag": "Kyrgyzstan.jpg"
+  },
+  {
+    "name": "\u041a\u0438\u0440\u0438\u0431\u0430\u0442\u0438",
+    "share": "\u0432 \u041a\u0438\u0440\u0438\u0431\u0430\u0442\u0438",
+    "flag": "Kiribati.jpg"
+  },
+  {
+    "name": "\u041a\u041d\u0414\u0420",
+    "share": "\u0432 \u041a\u041d\u0414\u0420",
+    "flag": "North_Korea.jpg"
+  },
+  {
+    "name": "\u041a\u041d\u0420",
+    "share": "\u0432 \u041a\u041d\u0420",
+    "flag": "China.jpg"
+  },
+  {
+    "name": "\u041a\u043e\u043b\u0443\u043c\u0431\u0438\u044f",
+    "share": "\u0432 \u041a\u043e\u043b\u0443\u043c\u0431\u0438\u0438",
+    "flag": "Colombia.jpg"
+  },
+  {
+    "name": "\u041a\u043e\u043c\u043e\u0440\u044b",
+    "share": "\u043d\u0430 \u041a\u043e\u043c\u043e\u0440\u044b",
+    "flag": "Comoros.jpg"
+  },
+  {
+    "name": "\u041a\u043e\u0441\u0442\u0430-\u0420\u0438\u043a\u0430",
+    "share": "\u0432 \u041a\u043e\u0441\u0442\u0430-\u0420\u0438\u043a\u0435",
+    "flag": "Costa_Rica.jpg"
+  },
+  {
+    "name": "\u041a\u043e\u0442-\u0434\u2019\u0418\u0432\u0443\u0430\u0440",
+    "share": "\u0432 \u041a\u043e\u0442-\u0434\u2019\u0418\u0432\u0443\u0430\u0440\u0435",
+    "flag": "Cote_dIvoire.jpg"
+  },
+  {
+    "name": "\u041a\u0443\u0431\u0430",
+    "share": "\u0432 \u041a\u0443\u0431\u0435",
+    "flag": "Cuba.jpg"
+  },
+  {
+    "name": "\u041a\u0443\u0432\u0435\u0439\u0442",
+    "share": "\u0432 \u041a\u0443\u0432\u0435\u0439\u0442\u0435",
+    "flag": "Kuwait.jpg"
+  },
+  {
+    "name": "\u041b\u0430\u043e\u0441",
+    "share": "\u0432 \u041b\u0430\u043e\u0441\u0435",
+    "flag": "Laos.jpg"
+  },
+  {
+    "name": "\u041b\u0430\u0442\u0432\u0438\u044f",
+    "share": "\u0432 \u041b\u0430\u0442\u0432\u0438\u0438",
+    "flag": "Latvia.jpg"
+  },
+  {
+    "name": "\u041b\u0435\u0441\u043e\u0442\u043e",
+    "share": "\u0432 \u041b\u0435\u0441\u043e\u0442\u043e",
+    "flag": "Lesotho.jpg"
+  },
+  {
+    "name": "\u041b\u0438\u0431\u0435\u0440\u0438\u044f",
+    "share": "\u0432 \u041b\u0438\u0431\u0435\u0440\u0438\u0438",
+    "flag": "Liberia.jpg"
+  },
+  {
+    "name": "\u041b\u0438\u0432\u0430\u043d",
+    "share": "\u0432 \u041b\u0438\u0432\u0430\u043d\u0435",
+    "flag": "Lebanon.jpg"
+  },
+  {
+    "name": "\u041b\u0438\u0432\u0438\u044f",
+    "share": "\u0432 \u041b\u0438\u0432\u0438\u0438",
+    "flag": "Libya.jpg"
+  },
+  {
+    "name": "\u041b\u0438\u0442\u0432\u0430",
+    "share": "\u0432 \u041b\u0438\u0442\u0432\u0435",
+    "flag": "Lithuania.jpg"
+  },
+  {
+    "name": "\u041b\u0438\u0445\u0442\u0435\u043d\u0448\u0442\u0435\u0439\u043d",
+    "share": "\u0432 \u041b\u0438\u0445\u0442\u0435\u043d\u0448\u0442\u0435\u0439\u043d\u0435",
+    "flag": "Liechtenstein.jpg"
+  },
+  {
+    "name": "\u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0433",
+    "share": "\u0432 \u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0433\u0435",
+    "flag": "Luxembourg.jpg"
+  },
+  {
+    "name": "\u041c\u0430\u0432\u0440\u0438\u043a\u0438\u0439",
+    "share": "\u043d\u0430 \u041c\u0430\u0432\u0440\u0438\u043a\u0438\u0438",
+    "flag": "Mauritius.jpg"
+  },
+  {
+    "name": "\u041c\u0430\u0432\u0440\u0438\u0442\u0430\u043d\u0438\u044f",
+    "share": "\u0432 \u041c\u0430\u0432\u0440\u0438\u0442\u0430\u043d\u0438\u0438",
+    "flag": "Mauritania.jpg"
+  },
+  {
+    "name": "\u041c\u0430\u0434\u0430\u0433\u0430\u0441\u043a\u0430\u0440",
+    "share": "\u0432 \u041c\u0430\u0434\u0430\u0433\u0430\u0441\u043a\u0430\u0440\u0435",
+    "flag": "Madagascar.jpg"
+  },
+  {
+    "name": "\u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u044f",
+    "share": "\u0432 \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0438",
+    "flag": "Macedonia.jpg"
+  },
+  {
+    "name": "\u041c\u0430\u043b\u0430\u0432\u0438",
+    "share": "\u0432 \u041c\u0430\u043b\u0430\u0432\u0438",
+    "flag": "Malawi.jpg"
+  },
+  {
+    "name": "\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u044f",
+    "share": "\u0432 \u041c\u0430\u043b\u0430\u0439\u0437\u0438\u0438",
+    "flag": "Malaysia.jpg"
+  },
+  {
+    "name": "\u041c\u0430\u043b\u0438",
+    "share": "\u0432 \u041c\u0430\u043b\u0438",
+    "flag": "Mali.jpg"
+  },
+  {
+    "name": "\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b",
+    "share": "\u043d\u0430 \u041c\u0430\u043b\u044c\u0434\u0438\u0432\u0430\u0445",
+    "flag": "Maldives.jpg"
+  },
+  {
+    "name": "\u041c\u0430\u043b\u044c\u0442\u0430",
+    "share": "\u043d\u0430 \u041c\u0430\u043b\u044c\u0442\u0435",
+    "flag": "Malta.jpg"
+  },
+  {
+    "name": "\u041c\u0430\u0440\u043e\u043a\u043a\u043e",
+    "share": "\u0432 \u041c\u0430\u0440\u043e\u043a\u043a\u043e",
+    "flag": "Morocco.jpg"
+  },
+  {
+    "name": "\u041c\u0430\u0440\u0448\u0430\u043b\u043b\u043e\u0432\u044b \u041e\u0441\u0442\u0440\u043e\u0432\u0430",
+    "share": "\u0432 \u041c\u0430\u0440\u0448\u0430\u043b\u043b\u043e\u0432\u044b\u0445 \u041e\u0441\u0442\u0440\u043e\u0432\u0430\u0445",
+    "flag": "Marshall_Islands.jpg"
+  },
+  {
+    "name": "\u041c\u0435\u043a\u0441\u0438\u043a\u0430",
+    "share": "\u0432 \u041c\u0435\u043a\u0441\u0438\u043a\u0435",
+    "flag": "Mexico.jpg"
+  },
+  {
+    "name": "\u041c\u043e\u0437\u0430\u043c\u0431\u0438\u043a",
+    "share": "\u0432 \u041c\u043e\u0437\u0430\u043c\u0431\u0438\u043a\u0435",
+    "flag": "Mozambique.jpg"
+  },
+  {
+    "name": "\u041c\u043e\u043b\u0434\u0430\u0432\u0438\u044f",
+    "share": "\u0432 \u041c\u043e\u043b\u0434\u0430\u0432\u0438\u0438",
+    "flag": "Moldova.jpg"
+  },
+  {
+    "name": "\u041c\u043e\u043d\u0430\u043a\u043e",
+    "share": "\u0432 \u041c\u043e\u043d\u0430\u043a\u043e",
+    "flag": "Monaco.jpg"
+  },
+  {
+    "name": "\u041c\u043e\u043d\u0433\u043e\u043b\u0438\u044f",
+    "share": "\u0432 \u041c\u043e\u043d\u0433\u043e\u043b\u0438\u0438",
+    "flag": "Mongolia.jpg"
+  },
+  {
+    "name": "\u041c\u044c\u044f\u043d\u043c\u0430",
+    "share": "\u0432 \u041c\u044c\u044f\u043d\u043c\u0435",
+    "flag": "Myanmar.jpg"
+  },
+  {
+    "name": "\u041d\u0430\u043c\u0438\u0431\u0438\u044f",
+    "share": "\u0432 \u041d\u0430\u043c\u0438\u0431\u0438\u0438",
+    "flag": "Namibia.jpg"
+  },
+  {
+    "name": "\u041d\u0430\u0443\u0440\u0443",
+    "share": "\u0432 \u041d\u0430\u0443\u0440\u0443",
+    "flag": "Nauru.jpg"
+  },
+  {
+    "name": "\u041d\u0435\u043f\u0430\u043b",
+    "share": "\u0432 \u041d\u0435\u043f\u0430\u043b\u0435",
+    "flag": "Nepal.jpg"
+  },
+  {
+    "name": "\u041d\u0438\u0433\u0435\u0440",
+    "share": "\u0432 \u041d\u0438\u0433\u0435\u0440\u0435",
+    "flag": "Niger.jpg"
+  },
+  {
+    "name": "\u041d\u0438\u0433\u0435\u0440\u0438\u044f",
+    "share": "\u0432 \u041d\u0438\u0433\u0435\u0440\u0438\u0438",
+    "flag": "Nigeria.jpg"
+  },
+  {
+    "name": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u044b",
+    "share": "\u0432 \u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u0430\u0445",
+    "flag": "Netherlands.jpg"
+  },
+  {
+    "name": "\u041d\u0438\u043a\u0430\u0440\u0430\u0433\u0443\u0430",
+    "share": "\u0432 \u041d\u0438\u043a\u0430\u0440\u0430\u0433\u0443\u0430",
+    "flag": "Nicaragua.jpg"
+  },
+  {
+    "name": "\u041d\u043e\u0432\u0430\u044f \u0417\u0435\u043b\u0430\u043d\u0434\u0438\u044f",
+    "share": "\u0432 \u041d\u043e\u0432\u043e\u0439 \u0417\u0435\u043b\u0430\u043d\u0434\u0438\u0438",
+    "flag": "New_Zealand.jpg"
+  },
+  {
+    "name": "\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f",
+    "share": "\u0432 \u041d\u043e\u0440\u0432\u0435\u0433\u0438\u0438",
+    "flag": "Norway.jpg"
+  },
+  {
+    "name": "\u041e\u0410\u042d",
+    "share": "\u0432 \u041e\u0410\u042d",
+    "flag": "United_Arab_Emirates.jpg"
+  },
+  {
+    "name": "\u041e\u043c\u0430\u043d",
+    "share": "\u0432 \u041e\u043c\u0430\u043d\u0435",
+    "flag": "Oman.jpg"
+  },
+  {
+    "name": "\u041f\u0430\u043a\u0438\u0441\u0442\u0430\u043d",
+    "share": "\u0432 \u041f\u0430\u043a\u0438\u0441\u0442\u0430\u043d\u0435",
+    "flag": "Pakistan.jpg"
+  },
+  {
+    "name": "\u041f\u0430\u043b\u0430\u0443",
+    "share": "\u0432 \u041f\u0430\u043b\u0430\u0443",
+    "flag": "Palau.jpg"
+  },
+  {
+    "name": "\u041f\u0430\u043d\u0430\u043c\u0430",
+    "share": "\u043d\u0430 \u041f\u0430\u043d\u0430\u043c\u0435",
+    "flag": "Panama.jpg"
+  },
+  {
+    "name": "\u041f\u0430\u043f\u0443\u0430 \u2014 \u041d\u043e\u0432\u0430\u044f \u0413\u0432\u0438\u043d\u0435\u044f",
+    "share": "\u0432 \u041f\u0430\u043f\u0443\u0430 \u2014 \u041d\u043e\u0432\u043e\u0439 \u0413\u0432\u0438\u043d\u0435\u0435",
+    "flag": "Papua_New_Guinea.jpg"
+  },
+  {
+    "name": "\u041f\u0430\u0440\u0430\u0433\u0432\u0430\u0439",
+    "share": "\u0432 \u041f\u0430\u0440\u0430\u0433\u0432\u0430\u0435",
+    "flag": "Paraguay.jpg"
+  },
+  {
+    "name": "\u041f\u0435\u0440\u0443",
+    "share": "\u0432 \u041f\u0435\u0440\u0443",
+    "flag": "Peru.jpg"
+  },
+  {
+    "name": "\u041f\u043e\u043b\u044c\u0448\u0430",
+    "share": "\u0432 \u041f\u043e\u043b\u044c\u0448\u0435",
+    "flag": "Poland.jpg"
+  },
+  {
+    "name": "\u041f\u043e\u0440\u0442\u0443\u0433\u0430\u043b\u0438\u044f",
+    "share": "\u0432 \u041f\u043e\u0440\u0442\u0443\u0433\u0430\u043b\u0438\u0438",
+    "flag": "Portugal.jpg"
+  },
+  {
+    "name": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u043d\u0433\u043e",
+    "share": "\u0432 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0435 \u041a\u043e\u043d\u0433\u043e",
+    "flag": "Republic_of_the_Congo.jpg"
+  },
+  {
+    "name": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u0440\u0435\u044f",
+    "share": "\u0432 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0435 \u041a\u043e\u0440\u0435\u044f",
+    "flag": "South_Korea.jpg"
+  },
+  {
+    "name": "\u0420\u043e\u0441\u0441\u0438\u044f",
+    "share": "\u0432 \u0420\u043e\u0441\u0441\u0438\u0438",
+    "flag": "Russia.jpg"
+  },
+  {
+    "name": "\u0420\u0443\u0430\u043d\u0434\u0430",
+    "share": "\u0432 \u0420\u0443\u0430\u043d\u0434\u0435",
+    "flag": "Rwanda.jpg"
+  },
+  {
+    "name": "\u0420\u0443\u043c\u044b\u043d\u0438\u044f",
+    "share": "\u0432 \u0420\u0443\u043c\u044b\u043d\u0438\u0438",
+    "flag": "Romania.jpg"
+  },
+  {
+    "name": "\u0421\u0430\u043b\u044c\u0432\u0430\u0434\u043e\u0440",
+    "share": "\u0432 \u0421\u0430\u043b\u044c\u0432\u0430\u0434\u043e\u0440\u0435",
+    "flag": "El_Salvador.jpg"
+  },
+  {
+    "name": "\u0421\u0430\u043c\u043e\u0430",
+    "share": "\u0432 \u0421\u0430\u043c\u043e\u0430",
+    "flag": "Samoa.jpg"
+  },
+  {
+    "name": "\u0421\u0430\u043d-\u041c\u0430\u0440\u0438\u043d\u043e",
+    "share": "\u0432 \u0421\u0430\u043d-\u041c\u0430\u0440\u0438\u043d\u043e",
+    "flag": "San_Marino.jpg"
+  },
+  {
+    "name": "\u0421\u0430\u043d-\u0422\u043e\u043c\u0435 \u0438 \u041f\u0440\u0438\u043d\u0441\u0438\u043f\u0438",
+    "share": "\u0432 \u0421\u0430\u043d-\u0422\u043e\u043c\u0435 \u0438 \u041f\u0440\u0438\u043d\u0441\u0438\u043f\u0438",
+    "flag": "Sao_Tome_and_Principe.jpg"
+  },
+  {
+    "name": "\u0421\u0430\u0443\u0434\u043e\u0432\u0441\u043a\u0430\u044f \u0410\u0440\u0430\u0432\u0438\u044f",
+    "share": "\u0432 \u0421\u0430\u0443\u0434\u043e\u0432\u0441\u043a\u043e\u0439 \u0410\u0440\u0430\u0432\u0438\u0438",
+    "flag": "Saudi_Arabia.jpg"
+  },
+  {
+    "name": "\u0421\u0432\u0430\u0437\u0438\u043b\u0435\u043d\u0434",
+    "share": "\u0421\u0432\u0430\u0437\u0438\u043b\u0435\u043d\u0434\u0435",
+    "flag": "Swaziland.jpg"
+  },
+  {
+    "name": "\u0421\u0435\u0439\u0448\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u041e\u0441\u0442\u0440\u043e\u0432\u0430",
+    "share": "\u043d\u0430 \u0421\u0435\u0439\u0448\u0435\u043b\u044c\u0441\u043a\u0438\u0445 \u041e\u0441\u0442\u0440\u043e\u0432\u0430\u0445",
+    "flag": "Seychelles.jpg"
+  },
+  {
+    "name": "\u0421\u0435\u043d\u0435\u0433\u0430\u043b",
+    "share": "\u0432 \u0421\u0435\u043d\u0435\u0433\u0430\u043b\u0435",
+    "flag": "Senegal.jpg"
+  },
+  {
+    "name": "\u0421\u0435\u043d\u0442-\u0412\u0438\u043d\u0441\u0435\u043d\u0442 \u0438 \u0413\u0440\u0435\u043d\u0430\u0434\u0438\u043d\u044b",
+    "share": "\u0432 \u0421\u0435\u043d\u0442-\u0412\u0438\u043d\u0441\u0435\u043d\u0442 \u0438 \u0413\u0440\u0435\u043d\u0430\u0434\u0438\u043d\u0430\u0445",
+    "flag": "Saint_Vincent_and_the_Grenadines.jpg"
+  },
+  {
+    "name": "\u0421\u0435\u043d\u0442-\u041a\u0438\u0442\u0441 \u0438 \u041d\u0435\u0432\u0438\u0441",
+    "share": "\u0432 \u0421\u0435\u043d\u0442-\u041a\u0438\u0442\u0441 \u0438 \u041d\u0435\u0432\u0438\u0441\u0435",
+    "flag": "Saint_Kitts_and_Nevis.jpg"
+  },
+  {
+    "name": "\u0421\u0435\u043d\u0442-\u041b\u044e\u0441\u0438\u044f",
+    "share": "\u0432 \u0421\u0435\u043d\u0442-\u041b\u044e\u0441\u0438\u0438",
+    "flag": "Saint_Lucia.jpg"
+  },
+  {
+    "name": "\u0421\u0435\u0440\u0431\u0438\u044f",
+    "share": "\u0432 \u0421\u0435\u0440\u0431\u0438\u0438",
+    "flag": "Serbia.jpg"
+  },
+  {
+    "name": "\u0421\u0438\u043d\u0433\u0430\u043f\u0443\u0440",
+    "share": "\u0432 \u0421\u0438\u043d\u0433\u0430\u043f\u0443\u0440\u0435",
+    "flag": "Singapore.jpg"
+  },
+  {
+    "name": "\u0421\u0438\u0440\u0438\u044f",
+    "share": "\u0432 \u0421\u0438\u0440\u0438\u0438",
+    "flag": "Syria.jpg"
+  },
+  {
+    "name": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f",
+    "share": "\u0432 \u0421\u043b\u043e\u0432\u0430\u043a\u0438\u0438",
+    "flag": "Slovakia.jpg"
+  },
+  {
+    "name": "\u0421\u043b\u043e\u0432\u0435\u043d\u0438\u044f",
+    "share": "\u0432 \u0421\u043b\u043e\u0432\u0435\u043d\u0438\u0438",
+    "flag": "Slovenia.jpg"
+  },
+  {
+    "name": "\u0421\u043e\u043b\u043e\u043c\u043e\u043d\u043e\u0432\u044b \u041e\u0441\u0442\u0440\u043e\u0432\u0430",
+    "share": "\u043d\u0430 \u0421\u043e\u043b\u043e\u043c\u043e\u043d\u043e\u0432\u044b\u0445 \u041e\u0441\u0442\u0440\u043e\u0432\u0430\u0445",
+    "flag": "Solomon_Islands.jpg"
+  },
+  {
+    "name": "\u0421\u043e\u043c\u0430\u043b\u0438",
+    "share": "\u0432 \u0421\u043e\u043c\u0430\u043b\u0438",
+    "flag": "Somalia.jpg"
+  },
+  {
+    "name": "\u0421\u0443\u0434\u0430\u043d",
+    "share": "\u0432 \u0421\u0443\u0434\u0430\u043d\u0435",
+    "flag": "Sudan.jpg"
+  },
+  {
+    "name": "\u0421\u0443\u0440\u0438\u043d\u0430\u043c",
+    "share": "\u0432 \u0421\u0443\u0440\u0438\u043d\u0430\u043c\u0435",
+    "flag": "Suriname.jpg"
+  },
+  {
+    "name": "\u0421\u0428\u0410",
+    "share": "\u0432 \u0421\u0428\u0410",
+    "flag": "United_States.jpg"
+  },
+  {
+    "name": "\u0421\u044c\u0435\u0440\u0440\u0430-\u041b\u0435\u043e\u043d\u0435",
+    "share": "\u0432 \u0421\u044c\u0435\u0440\u0440\u0430-\u041b\u0435\u043e\u043d\u0435",
+    "flag": "Sierra_Leone.jpg"
+  },
+  {
+    "name": "\u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d",
+    "share": "\u0432 \u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d\u0435",
+    "flag": "Tajikistan.jpg"
+  },
+  {
+    "name": "\u0422\u0430\u0438\u043b\u0430\u043d\u0434",
+    "share": "\u0432 \u0422\u0430\u0438\u043b\u0430\u043d\u0434\u0435",
+    "flag": "Thailand.jpg"
+  },
+  {
+    "name": "\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f",
+    "share": "\u0432 \u0422\u0430\u043d\u0437\u0430\u043d\u0438\u0438",
+    "flag": "Tanzania.jpg"
+  },
+  {
+    "name": "\u0422\u043e\u0433\u043e",
+    "share": "\u0432 \u0422\u043e\u0433\u043e",
+    "flag": "Togo.jpg"
+  },
+  {
+    "name": "\u0422\u043e\u043d\u0433\u0430",
+    "share": "\u0432 \u0422\u043e\u043d\u0433\u0430",
+    "flag": "Tonga.jpg"
+  },
+  {
+    "name": "\u0422\u0440\u0438\u043d\u0438\u0434\u0430\u0434 \u0438 \u0422\u043e\u0431\u0430\u0433\u043e",
+    "share": "\u0432 \u0422\u0440\u0438\u043d\u0438\u0434\u0430\u0434 \u0438 \u0422\u043e\u0431\u0430\u0433\u043e",
+    "flag": "Trinidad_and_Tobago.jpg"
+  },
+  {
+    "name": "\u0422\u0443\u0432\u0430\u043b\u0443",
+    "share": "\u0432 \u0422\u0443\u0432\u0430\u043b\u0443",
+    "flag": "Tuvalu.jpg"
+  },
+  {
+    "name": "\u0422\u0443\u043d\u0438\u0441",
+    "share": "\u0432 \u0422\u0443\u043d\u0438\u0441\u0435",
+    "flag": "Tunisia.jpg"
+  },
+  {
+    "name": "\u0422\u0443\u0440\u043a\u043c\u0435\u043d\u0438\u044f",
+    "share": "\u0432 \u0422\u0443\u0440\u043a\u043c\u0435\u043d\u0438\u0438",
+    "flag": "Turkmenistan.jpg"
+  },
+  {
+    "name": "\u0422\u0443\u0440\u0446\u0438\u044f",
+    "share": "\u0432 \u0422\u0443\u0440\u0446\u0438\u0438",
+    "flag": "Turkey.jpg"
+  },
+  {
+    "name": "\u0423\u0433\u0430\u043d\u0434\u0430",
+    "share": "\u0432 \u0423\u0433\u0430\u043d\u0434\u0435",
+    "flag": "Uganda.jpg"
+  },
+  {
+    "name": "\u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d",
+    "share": "\u0432 \u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d\u0435",
+    "flag": "Uzbekistan.jpg"
+  },
+  {
+    "name": "\u0423\u043a\u0440\u0430\u0438\u043d\u0430",
+    "share": "\u043d\u0430 \u0423\u043a\u0440\u0430\u0438\u043d\u0435",
+    "flag": "Ukraine.jpg"
+  },
+  {
+    "name": "\u0423\u0440\u0443\u0433\u0432\u0430\u0439",
+    "share": "\u0432 \u0423\u0440\u0443\u0433\u0432\u0430\u0435",
+    "flag": "Uruguay.jpg"
+  },
+  {
+    "name": "\u0424\u0435\u0434\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u041c\u0438\u043a\u0440\u043e\u043d\u0435\u0437\u0438\u0438",
+    "share": "\u0432 \u0424\u0435\u0434\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0445 \u0428\u0442\u0430\u0442\u0430\u0445 \u041c\u0438\u043a\u0440\u043e\u043d\u0435\u0437\u0438\u0438",
+    "flag": "Micronesia.jpg"
+  },
+  {
+    "name": "\u0424\u0438\u0434\u0436\u0438",
+    "share": "\u043d\u0430 \u0424\u0438\u0434\u0436\u0438",
+    "flag": "Fiji.jpg"
+  },
+  {
+    "name": "\u0424\u0438\u043b\u0438\u043f\u043f\u0438\u043d\u044b",
+    "share": "\u043d\u0430 \u0424\u0438\u043b\u0438\u043f\u043f\u0438\u043d\u0430\u0445",
+    "flag": "Philippines.jpg"
+  },
+  {
+    "name": "\u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f",
+    "share": "\u0432 \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u0438",
+    "flag": "Finland.jpg"
+  },
+  {
+    "name": "\u0424\u0440\u0430\u043d\u0446\u0438\u044f",
+    "share": "\u0432\u043e \u0424\u0440\u0430\u043d\u0446\u0438\u0438",
+    "flag": "France.jpg"
+  },
+  {
+    "name": "\u0425\u043e\u0440\u0432\u0430\u0442\u0438\u044f",
+    "share": "\u0432 \u0425\u043e\u0440\u0432\u0430\u0442\u0438\u0438",
+    "flag": "Croatia.jpg"
+  },
+  {
+    "name": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u043e\u0430\u0444\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
+    "share": "\u0432 \u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u043e\u0430\u0444\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0439 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0435",
+    "flag": "Central_African_Republic.jpg"
+  },
+  {
+    "name": "\u0427\u0430\u0434",
+    "share": "\u0432 \u0427\u0430\u0434\u0435",
+    "flag": "Chad.jpg"
+  },
+  {
+    "name": "\u0427\u0435\u0440\u043d\u043e\u0433\u043e\u0440\u0438\u044f",
+    "share": "\u0432 \u0427\u0435\u0440\u043d\u043e\u0433\u043e\u0440\u0438\u0438",
+    "flag": "Montenegro.jpg"
+  },
+  {
+    "name": "\u0427\u0435\u0445\u0438\u044f",
+    "share": "\u0432 \u0427\u0435\u0445\u0438\u0438",
+    "flag": "Czech_Republic.jpg"
+  },
+  {
+    "name": "\u0427\u0438\u043b\u0438",
+    "share": "\u0432 \u0427\u0438\u043b\u0438",
+    "flag": "Chile.jpg"
+  },
+  {
+    "name": "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0438\u044f",
+    "share": "\u0432 \u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0438\u0438",
+    "flag": "Switzerland.jpg"
+  },
+  {
+    "name": "\u0428\u0432\u0435\u0446\u0438\u044f",
+    "share": "\u0432 \u0428\u0432\u0435\u0446\u0438\u0438",
+    "flag": "Sweden.jpg"
+  },
+  {
+    "name": "\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430",
+    "share": "\u043d\u0430 \u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0435",
+    "flag": "Sri_Lanka.jpg"
+  },
+  {
+    "name": "\u042d\u043a\u0432\u0430\u0434\u043e\u0440",
+    "share": "\u0432 \u042d\u043a\u0432\u0430\u0434\u043e\u0440\u0435",
+    "flag": "Ecuador.jpg"
+  },
+  {
+    "name": "\u042d\u043a\u0432\u0430\u0442\u043e\u0440\u0438\u0430\u043b\u044c\u043d\u0430\u044f \u0413\u0432\u0438\u043d\u0435\u044f",
+    "share": "\u0432 \u042d\u043a\u0432\u0430\u0442\u043e\u0440\u0438\u0430\u043b\u044c\u043d\u043e\u0439 \u0413\u0432\u0438\u043d\u0435\u0435",
+    "flag": "Equatorial_Guinea.jpg"
+  },
+  {
+    "name": "\u042d\u0440\u0438\u0442\u0440\u0435\u044f",
+    "share": "\u0432 \u042d\u0440\u0438\u0442\u0440\u0435\u0435",
+    "flag": "Eritrea.jpg"
+  },
+  {
+    "name": "\u042d\u0441\u0442\u043e\u043d\u0438\u044f",
+    "share": "\u0432 \u042d\u0441\u0442\u043e\u043d\u0438\u0438",
+    "flag": "Estonia.jpg"
+  },
+  {
+    "name": "\u042d\u0444\u0438\u043e\u043f\u0438\u044f",
+    "share": "\u0432 \u042d\u0444\u0438\u043e\u043f\u0438\u0438",
+    "flag": "Ethiopia.jpg"
+  },
+  {
+    "name": "\u042e\u0410\u0420",
+    "share": "\u0432 \u042e\u0410\u0420",
+    "flag": "South_Africa.jpg"
+  },
+  {
+    "name": "\u042e\u0436\u043d\u044b\u0439 \u0421\u0443\u0434\u0430\u043d",
+    "share": "\u0432 \u042e\u0436\u043d\u043e\u043c \u0421\u0443\u0434\u0430\u043d\u0435",
+    "flag": "South_Sudan.jpg"
+  },
+  {
+    "name": "\u042f\u043c\u0430\u0439\u043a\u0430",
+    "share": "\u043d\u0430 \u042f\u043c\u0430\u0439\u043a\u0435",
+    "flag": "Jamaica.jpg"
+  },
+  {
+    "name": "\u042f\u043f\u043e\u043d\u0438\u044f",
+    "share": "\u0432 \u042f\u043f\u043e\u043d\u0438\u0438",
+    "flag": "Japan.jpg"
+  }
+]
