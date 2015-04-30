@@ -192,6 +192,7 @@ gulp.task('shares', function (callback) {
 
         var niceName = countries[share]
 
+
         var html = template.render({
             siteUrl: '/',
             sharePart: niceName
