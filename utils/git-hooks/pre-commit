@@ -1,0 +1,15 @@
+#!/bin/sh
+# Client side git hook
+# Export DB Dump to working root directory before git commit
+ 
+ 
+DB_NAME=fl_dbname
+DB_USER=root
+DB_PASS=root
+ 
+#Get working directory path
+WORKING_DIR="$(git rev-parse --show-toplevel)"
+ 
+mkdir -p $WORKING_DIR/utils/db-dump # "mkdir -r" on linux
+/usr/local/bin/mysqldump -u $DB_USER -p$DB_PASS --default-character-set=utf8 $DB_NAME > $WORKING_DIR/utils/db-dump/$DB_NAME.sql
+git add $WORKING_DIR/utils/db-dump/$DB_NAME.sql

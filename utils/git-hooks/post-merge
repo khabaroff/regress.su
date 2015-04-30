@@ -1,0 +1,11 @@
+#!/bin/sh
+
+MYSQL_DUMP_BIN=z:/usr/local/mysql-5.5/bin/mysqldump
+MYSQL_USER=root
+MYSQL_DATABSE=fl_lipton
+#Relative to .git directory
+SQL_DUMP_FILE=utils/dump.sql
+
+WORKING_DIR="$(git rev-parse --show-toplevel)"
+
+$MYSQL_DUMP_BIN -u $MYSQL_USER --default-character-set=utf8 $MYSQL_DATABSE < $WORKING_DIR/$SQL_DUMP_FILE

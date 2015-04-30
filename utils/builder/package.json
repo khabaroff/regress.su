@@ -1,0 +1,28 @@
+{
+  "name": "boilerplate-gulp",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "autoprefixer-core": "^5.1.8",
+    "gulp": ">=3.6.2",
+    "gulp-concat": "^2.5.2",
+    "gulp-less-sourcemap": "*",
+    "gulp-postcss": "^5.0.0",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-twig": "^0.3.0",
+    "gulp-util": ">=2.2.14",
+    "gulp-watch": ">=0.6.4",
+    "node-notifier": ">=2.0.4",
+    "requirejs": "~2.1.14",
+    "run-sequence": "^1.0.2",
+    "twig": "^0.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
