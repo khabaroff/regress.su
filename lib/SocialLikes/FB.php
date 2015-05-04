@@ -1,32 +1,26 @@
 <?
 require_once 'SocialNetwork.class.php';
 
-class VK implements SocialNetwork
+class Twitter implements SocialNetwork
 {
-    public static $appId = 0;
-
     public static function likes($site_page)
     {
-        $query = http_build_query(array(
-            'type' => 'sitepage',
-            'owner_id' => static::$appId,
-            'page_url' => $site_page,
-            'extended' => 0,
-            'count' => 1
-        ));
-
         try
         {
-            $response = @file_get_contents('http://api.vk.com/method/likes.getList?' . $query);
+            $query = http_build_query(array(
+                'url' => $site_page
+            ));
+
+            $response = @file_get_contents('http://urls.api.twitter.com/1/urls/count.json?' . $query);
 
             if (!$response OR !$response = json_decode($response, true))
             {
                 throw new Exception('empty');
             }
 
-            if (!empty($response['error']))
+            if (empty($response['count']))
             {
-                throw new Exception($response['error']['error_msg']);
+                throw new Exception('empty');
             }
         }
         catch(Exception $error)
@@ -34,6 +28,6 @@ class VK implements SocialNetwork
             return 0;
         }
 
-        return empty($response['response']) ? 0 : (float)$response['response']['count'];
+        return (float)$response['count'];
     }
 }

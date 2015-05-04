@@ -14,6 +14,7 @@
     "gulp-twig": "^0.3.0",
     "gulp-util": ">=2.2.14",
     "gulp-watch": ">=0.6.4",
+    "gulp.spritesmith": "^3.5.4",
     "node-notifier": ">=2.0.4",
     "requirejs": "~2.1.14",
     "run-sequence": "^1.0.2",

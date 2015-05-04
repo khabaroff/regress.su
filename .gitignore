@@ -1,2 +1,4 @@
 .idea
 compilation_cache
+dev-lock
+share/*

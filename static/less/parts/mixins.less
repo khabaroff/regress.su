@@ -1,39 +1,5 @@
-.clr{clear: both}
-.clrl{clear: left}
-.clrr{clear: right}
-.overflow-hidden{overflow: hidden; position: relative;}
-.float-left{float: left}
-.float-right{float: right}
-.display-table{display: table}
-.display-table-row{display: table-row}
-.display-table-cell{display: table-cell}
-.align-text-right{text-align: right}
-.align-text-left{text-align: left}
-.align-text-center{text-align: center}
-strong, b{font-weight: bold}
-em{font-style: italic}
-.pusher{z-index: 1; position: relative}
-
-img {
-    width: auto\9;
-    height: auto;
-    max-width: 100%;
-    vertical-align: middle;
-    border: 0;
-    -ms-interpolation-mode: bicubic
-}
-
-.a{
-    color: @linkColor;
-
-    &:focus,
-    &:hover{
-        color: @linkColorHover;
-    }
-}
-
-.clearfix{
-    &:after, &:before{
+.clearfix {
+    &:after, &:before {
         content: '';
         display: table;
     }
@@ -42,42 +8,13 @@ img {
     }
 }
 
-.after-before{
+.after-before {
     position: absolute;
     content: '';
     display: block;
 }
 
-.border-radius(@radius: 3px) {
-    -o-border-radius: @radius;
-    -moz-border-radius: @radius;
-    -webkit-border-radius: @radius;
-    border-radius: @radius;
-}
-
-.text-shadow(@shadow){
-    -o-text-shadow: @shadow;
-    -moz-text-shadow: @shadow;
-    -webkit-text-shadow: @shadow;
-    text-shadow: @shadow;
-}
-
-.box-shadow(@shadow){
-    -o-box-shadow: @shadow;
-    -moz-box-shadow: @shadow;
-    -webkit-box-shadow: @shadow;
-    box-shadow: @shadow;
-}
-
-.arial-narrow{
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    font-stretch: condensed;
-}
-.verdana{
-    font-family: verdana, sans-serif;
-}
-
-.noselect{
+.noselect {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -86,39 +23,7 @@ img {
     user-select: none;
 }
 
-.customize-support-offsets(@offsetTop: 0, @property: top) {
-   /**
-    * Usage:
-    * .customize-support & { .customize-support-offsets(10px); }
-    **/
-
-    @{property}: @offsetTop + 32px;
-
-    @media screen and (max-width: 782px) {
-        @{property}: @offsetTop + 46px;
-    }
-}
-
-.placeholder-color(@color: #888){
-    &::-webkit-input-placeholder {
-        color: @color;
-    }
-    &:-moz-placeholder {
-        color: @color;
-    }
-    &::-moz-placeholder {
-        color: @color;
-    }
-    &:-ms-input-placeholder {
-        color: @color;
-    }
-}
-
-.font-size(@size, @baseSize: @fontSizeBase){
-    font-size: floor(100% * @size / @baseSize);
-}
-
-.font-face(@name, @filename, @weight: normal, @style: normal){
+.font-face(@name, @filename, @weight: normal, @style: normal) {
     @font-face {
         font-family: @name;
         src: url('@{staticFontsPath}/@{filename}/@{filename}.eot');
@@ -129,114 +34,4 @@ img {
         font-weight: @weight;
         font-style: @style;
     }
-}
-
-// Transformations
-.rotate(@degrees) {
-    -webkit-transform: rotate(@degrees);
-    -moz-transform: rotate(@degrees);
-    -ms-transform: rotate(@degrees);
-    -o-transform: rotate(@degrees);
-    transform: rotate(@degrees);
-}
-.scale(@ratio) {
-    -webkit-transform: scale(@ratio);
-    -moz-transform: scale(@ratio);
-    -ms-transform: scale(@ratio);
-    -o-transform: scale(@ratio);
-    transform: scale(@ratio);
-}
-.rotateX(@degrees) {
-    -webkit-transform: rotateX(@degrees);
-    -ms-transform: rotateX(@degrees); // IE9+
-    -o-transform: rotateX(@degrees);
-    -moz-transform: rotateX(@degrees);
-    transform: rotateX(@degrees);
-}
-.rotateY(@degrees) {
-    -webkit-transform: rotateY(@degrees);
-    -ms-transform: rotateY(@degrees); // IE9+
-    -o-transform: rotateY(@degrees);
-    -moz-transform: rotateY(@degrees);
-    transform: rotateY(@degrees);
-}
-.skew(@x, @y) {
-    -webkit-transform: skew(@x, @y);
-    -moz-transform: skew(@x, @y);
-    -ms-transform: skewX(@x) skewY(@y); // See https://github.com/twbs/bootstrap/issues/4885
-    -o-transform: skew(@x, @y);
-    transform: skew(@x, @y);
-    -webkit-backface-visibility: hidden; // See https://github.com/twbs/bootstrap/issues/5319
-}
-.perspective(@perspective) {
-    -webkit-perspective: @perspective;
-    -moz-perspective: @perspective;
-    perspective: @perspective;
-}
-.perspective-origin(@perspective) {
-    -webkit-perspective-origin: @perspective;
-    -moz-perspective-origin: @perspective;
-    perspective-origin: @perspective;
-}
-.transform-origin(@origin){
-    -webkit-transform-origin: @origin;
-    -moz-transform-origin: @origin;
-    transform-origin: @origin;
-}
-.translate(@x) {
-    -webkit-transform: translate(@x);
-    -moz-transform: translate(@x);
-    -ms-transform: translate(@x);
-    -o-transform: translate(@x);
-    transform: translate(@x);
-}
-.translate(@x, @y) {
-    -webkit-transform: translate(@x, @y);
-    -moz-transform: translate(@x, @y);
-    -ms-transform: translate(@x, @y);
-    -o-transform: translate(@x, @y);
-    transform: translate(@x, @y);
-}
-.translate3d(@x, @y, @z) {
-    -webkit-transform: translate3d(@x, @y, @z);
-    -moz-transform: translate3d(@x, @y, @z);
-    -o-transform: translate3d(@x, @y, @z);
-    transform: translate3d(@x, @y, @z);
-}
-.backface-visibility(@visibility){
-    -webkit-backface-visibility: @visibility;
-    -moz-backface-visibility: @visibility;
-    backface-visibility: @visibility;
-}
-
-// Transitions
-.transition(@transition) {
-    -webkit-transition: @transition;
-    -moz-transition: @transition;
-    -o-transition: @transition;
-    transition: @transition;
-}
-.transition-property(@transition-property) {
-    -webkit-transition-property: @transition-property;
-    -moz-transition-property: @transition-property;
-    -o-transition-property: @transition-property;
-    transition-property: @transition-property;
-}
-.transition-delay(@transition-delay) {
-    -webkit-transition-delay: @transition-delay;
-    -moz-transition-delay: @transition-delay;
-    -o-transition-delay: @transition-delay;
-    transition-delay: @transition-delay;
-}
-.transition-duration(@transition-duration) {
-    -webkit-transition-duration: @transition-duration;
-    -moz-transition-duration: @transition-duration;
-    -o-transition-duration: @transition-duration;
-    transition-duration: @transition-duration;
-}
-.transition-transform(@transition) {
-    -webkit-transition: -webkit-transform @transition;
-    -moz-transition: -moz-transform @transition;
-    -o-transition: -o-transform @transition;
-    transition: transform @transition;
 }

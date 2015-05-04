@@ -1,8 +1,10 @@
 ;(function ($) {
+    $(document).foundation()
+
     var countriesLikes = jQuery.get('countries-likes.json'),
         domReady = $.Deferred()
 
-    jQuery(function ($) {
+    jQuery(function () {
         domReady.resolve()
     })
 

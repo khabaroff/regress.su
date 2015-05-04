@@ -1,25 +1,80 @@
+@import (inline) 'vendor/normalize.css';
+@import (inline) 'vendor/foundation.css';
+
 @import 'parts/variables';
-
-@import 'parts/reset';
-
 @import 'parts/mixins';
 
-@import 'parts/posts';
+.font-face(@ProximaNova, proxima-nova_regular, @weightRegular);
+.font-face(@ProximaNova, proxima-nova_regular-italic, @weightRegular, italic);
+.font-face(@ProximaNova, proxima-nova_black, @weightBold);
 
-@import 'parts/scrollbar';
-
-@import 'parts/icons';
-
-html{
-    font-family: @fontFamily;
-    font-size: @fontSizeBase;
-    color: @black;
+body {
+    background-color: #cf1c1e;
+    font-family: @fontFamilyProximaNova;
 }
 
-.wrapper{
-    margin: 0 auto;
+h1 {
+    font-weight: @weightBold;
+    text-transform: uppercase;
+    font-size: 72px;
+    text-align: center;
+    color: #ffab40;
+    background-color: #cf1c1e;
+    width: 100%;
+    letter-spacing: 5px;
+    line-height: 72px;
 }
 
-.content-wrapper{
-    margin: 0 auto;
+h2 {
+
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color: #a61618;
+    width: 100%;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin: 0;
+}
+
+.main {
+    background: url('@{staticImagesPath}/_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+.columns {
+    /*border: 1px solid white;*/
+    text-align: center;
+    height: 400px;
+    display: table;
+
+}
+
+.country {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.countryname {
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.countrycounter {
+    margin-top: 18px;
+    color: #cf1c1e;
+    font-size: 18px;
+}
+
+.countrylikes {
+    margin-top: 42px;
+    color: #eee;
 }

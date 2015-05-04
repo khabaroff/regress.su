@@ -4,7 +4,8 @@ var cssOutPath = '../../static/css'
 var countryTemplate = {
     base: '../../templates',
     outPath: '../../share',
-    flagsDir: '../../flags'
+    flagsDir: '../../flags',
+    pagesListJSON: '../../pages-names-list.json'
 }
 
 var sprites = {
@@ -36,7 +37,7 @@ var Twig = require('twig'), // Twig module
 
 var fs = require('fs')
 
-//var spritesmith = require('gulp.spritesmith')
+var spritesmith = require('gulp.spritesmith')
 
 lessSourceFiles = path.resolve(lessSourceFiles)
 
@@ -62,7 +63,7 @@ gulp.task('less', function () {
 });
 
 gulp.task('autoprefixer', function () {
-    return gulp.src(path.join(cssOutPath, '*.css'))
+    return gulp.src(path.join(cssOutPath, 'style.css'))
         .pipe(sourcemaps.init())
         .pipe(
         postcss([
@@ -104,13 +105,13 @@ gulp.task('sprites', function() {
 
     spriteData.css.pipe(gulp.dest(path.dirname(sprites.cssBuiltPath)))
 
-    spriteData.img
+    /*spriteData.img
         .pipe(imagemin({
             progressive: true,
             svgoPlugins: [{removeViewBox: false}],
             use: [pngquant()]
         }))
-        .pipe(gulp.dest(path.dirname(sprites.imgBuiltPath)))
+        .pipe(gulp.dest(path.dirname(sprites.imgBuiltPath)))*/
 
     return spriteData
 });
@@ -169,10 +170,6 @@ gulp.task('begin-watching', function () {
             'autoprefixer'
         )
     })
-
-    watch(path.join(path.dirname(countryTemplate.sourcePath), '**', '*.twig'), function (file) {
-        runSequence('twig')
-    })
 })
 
 gulp.task('shares', function (callback) {
@@ -182,6 +179,8 @@ gulp.task('shares', function (callback) {
 
     var countriesData = fs.readFileSync('countries.json').toString()
     countriesData = JSON.parse(countriesData)
+
+    var sharePages = []
 
     countriesData.forEach(function (country) {
         var countryImage = country.flag,
@@ -197,25 +196,23 @@ gulp.task('shares', function (callback) {
 
         var filename = path.basename(countryImage.toLowerCase(), '.jpg').replace(/_+/g, '-')
 
+        sharePages.push(filename)
+
         fs.writeFileSync(path.join(countryTemplate.outPath, filename + '.html'), html)
     })
+
+    fs.writeFileSync(countryTemplate.pagesListJSON, JSON.stringify(sharePages))
 
     callback()
 });
 
 gulp.task('watch', function (callback) {
     runSequence(
-        'shares'
+        'less',
+        'autoprefixer',
+        'begin-watching',
+        callback
     )
-
-    /*
-     runSequence(
-     //['twig'],
-     //'less',
-     //'autoprefixer',
-     //'begin-watching',
-     callback
-     )*/
 });
 
 gulp.task('default', ['watch']);
