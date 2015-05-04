@@ -3,6 +3,7 @@
 
 @import 'parts/variables';
 @import 'parts/mixins';
+@import 'parts/sprites';
 
 .font-face(@ProximaNova, proxima-nova_regular, @weightRegular);
 .font-face(@ProximaNova, proxima-nova_regular-italic, @weightRegular, italic);
@@ -54,7 +55,6 @@ p {
     text-align: center;
     height: 400px;
     display: table;
-
 }
 
 .country {
@@ -62,19 +62,72 @@ p {
     vertical-align: middle;
 }
 
-.countryname {
+.country-name {
     margin-top: 23px;
     color: #ffffff;
     font-size: 18px;
 }
 
-.countrycounter {
+.country-counter {
     margin-top: 18px;
     color: #cf1c1e;
     font-size: 18px;
 }
 
-.countrylikes {
+.country-likes {
     margin-top: 42px;
     color: #eee;
+    font-size: 0;
+    text-size-adjust: 100%;
+    white-space: nowrap;
+
+    .social-link {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 14px;
+        line-height: max(@facebook-icon-height, @vk-icon-height, @twitter-icon-height);
+
+        & + .social-link {
+            margin-left: 1.6em;
+        }
+
+        .social-icon {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .likes-count {
+            position: relative;
+            top: 0.08em;
+            color: #fff;
+            vertical-align: middle;
+            margin-left: 0.7em;
+        }
+    }
+
+    .social-icon--fb {
+        .retina-sprite(@facebook-icon-group);
+    }
+
+    .social-icon--vk {
+        .retina-sprite(@vk-icon-group);
+    }
+
+    .social-icon--twitter {
+        .retina-sprite(@twitter-icon-group);
+    }
+
+    .social-link:hover {
+        .social-icon--fb {
+            .retina-sprite(@facebook-icon-hover-group);
+        }
+
+        .social-icon--vk {
+            .retina-sprite(@vk-icon-hover-group);
+        }
+
+        .social-icon--twitter {
+            .retina-sprite(@twitter-icon-hover-group);
+        }
+    }
 }

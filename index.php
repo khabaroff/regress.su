@@ -11,4 +11,12 @@ $twig = new Twig_Environment($loader, array(
 
 $countries = require('data.php');
 
-echo $twig->render('countries.html', array('countries' => $countries));
+foreach ($countries AS &$country)
+{
+    $country_slag = mb_strtolower(basename($country['flag'], '.jpg'));
+    $country_slag = preg_replace('~_+~', '-', $country_slag);
+
+    $country['slug'] = $country_slag;
+}
+
+echo $twig->render('countries.twig', array('countries' => $countries));

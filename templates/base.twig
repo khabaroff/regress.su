@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js" lang="en" prefix='og: http://ogp.me/ns#'>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Куда упадёт прогресс?</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <script src="/static/js/vendor/modernizr.js"></script>
+    <script src="/static/js/vendor/jquery.js"></script>
+    <script src="/static/js/foundation.min.js"></script>
+    <script src="/static/js/main.js"></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/static/img/favions/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/static/img/favions/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/img/favions/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/img/favions/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/img/favions/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/static/img/favions/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/img/favions/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/static/img/favions/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/img/favions/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/static/img/favions/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/static/img/favions/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/static/img/favions/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/static/img/favions/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/static/img/favions/manifest.json">
+    <meta name="msapplication-TileColor" content="#cf1c1e">
+    <meta name="msapplication-TileImage" content="/img/mstile-144x144.png">
+    <meta name="theme-color" content="#cf1c1e">
+
+
+    <meta property="og:title" content="Где упадёт прогресс?"/>
+    <meta property="og:url" content="http://regress.su/" />
+    <meta property="og:image" content="http://regress.su/img/share.png" />
+    <meta property="og:description" content="Выбери свой вариант"/>
+    <meta property="og:site_name" content="Где упадёт прогресс?"/>
+
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@khabaroff">
+    <meta name="twitter:creator" content="@khabaroff">
+    <meta name="twitter:title" content="Где упадёт прогресс?">
+    <meta name="twitter:description" content="Выбери свой вариант">
+    <meta name="twitter:image:src" content="http://regress.su/img/share.png">
+</head>
+<body>
+
+<div class="header">
+    <h1>Где упадёт прогресс?</h1>
+    <h2>Лидер голосования — ###</h2>
+</div>
+
+
+<div class="main">
+    {% block content %}
+    {% endblock %}
+</div>
+
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-61279963-2', 'auto');
+    ga('send', 'pageview');
+</script>
+
+</body>
+</html>

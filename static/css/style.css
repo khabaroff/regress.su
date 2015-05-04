@@ -1896,6 +1896,61 @@ select {
   -ms-user-select: none;
   user-select: none;
 }
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+/*
+These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+
+The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+*/
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+*/
+/*
+The `retina-sprite` class sets up rules and a media query for a sprite/retina sprite.
+  It should be used with a "retina group" variable.
+
+The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+
+@icon-home-group: 'icon-home' @icon-home @icon-home-2x;
+
+.icon-home {
+  .retina-sprite(@icon-home-group);
+}
+*/
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+/*
+The `.retina-sprites` mixin generates a CSS rule and media query for retina groups
+  This yields the same output as CSS retina template but can be overridden in LESS
+
+.retina-sprites(@retina-groups);
+*/
 @font-face {
   font-family: ProximaNova;
   src: url('../fonts/proxima-nova_regular/proxima-nova_regular.eot');
@@ -1963,19 +2018,122 @@ p {
   display: table-cell;
   vertical-align: middle;
 }
-.countryname {
+.country-name {
   margin-top: 23px;
   color: #ffffff;
   font-size: 18px;
 }
-.countrycounter {
+.country-counter {
   margin-top: 18px;
   color: #cf1c1e;
   font-size: 18px;
 }
-.countrylikes {
+.country-likes {
   margin-top: 42px;
   color: #eee;
+  font-size: 0;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  white-space: nowrap;
+}
+.country-likes .social-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+}
+.country-likes .social-link + .social-link {
+  margin-left: 1.6em;
+}
+.country-likes .social-link .social-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.country-likes .social-link .likes-count {
+  position: relative;
+  top: 0.08em;
+  color: #fff;
+  vertical-align: middle;
+  margin-left: 0.7em;
+}
+.country-likes .social-icon--fb {
+  background-image: url(../img/sprites.png);
+  background-position: -24px 0px;
+  width: 20px;
+  height: 20px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .country-likes .social-icon--fb {
+    background-image: url(../img/sprites-2x.png);
+    -webkit-background-size: 70px 44px;
+            background-size: 70px 44px;
+  }
+}
+.country-likes .social-icon--vk {
+  background-image: url(../img/sprites.png);
+  background-position: -24px -24px;
+  width: 20px;
+  height: 20px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .country-likes .social-icon--vk {
+    background-image: url(../img/sprites-2x.png);
+    -webkit-background-size: 70px 44px;
+            background-size: 70px 44px;
+  }
+}
+.country-likes .social-icon--twitter {
+  background-image: url(../img/sprites.png);
+  background-position: -48px -22px;
+  width: 22px;
+  height: 18px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .country-likes .social-icon--twitter {
+    background-image: url(../img/sprites-2x.png);
+    -webkit-background-size: 70px 44px;
+            background-size: 70px 44px;
+  }
+}
+.country-likes .social-link:hover .social-icon--fb {
+  background-image: url(../img/sprites.png);
+  background-position: 0px 0px;
+  width: 20px;
+  height: 20px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .country-likes .social-link:hover .social-icon--fb {
+    background-image: url(../img/sprites-2x.png);
+    -webkit-background-size: 70px 44px;
+            background-size: 70px 44px;
+  }
+}
+.country-likes .social-link:hover .social-icon--vk {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -24px;
+  width: 20px;
+  height: 20px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .country-likes .social-link:hover .social-icon--vk {
+    background-image: url(../img/sprites-2x.png);
+    -webkit-background-size: 70px 44px;
+            background-size: 70px 44px;
+  }
+}
+.country-likes .social-link:hover .social-icon--twitter {
+  background-image: url(../img/sprites.png);
+  background-position: -48px 0px;
+  width: 22px;
+  height: 18px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .country-likes .social-link:hover .social-icon--twitter {
+    background-image: url(../img/sprites-2x.png);
+    -webkit-background-size: 70px 44px;
+            background-size: 70px 44px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */

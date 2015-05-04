@@ -104,6 +104,7 @@ gulp.task('sprites', function() {
             }))
 
     spriteData.css.pipe(gulp.dest(path.dirname(sprites.cssBuiltPath)))
+    spriteData.img.pipe(gulp.dest(path.dirname(sprites.imgBuiltPath)))
 
     /*spriteData.img
         .pipe(imagemin({
