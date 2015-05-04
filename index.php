@@ -24,6 +24,6 @@ foreach ($countries AS &$country)
 
 echo $twig->render('countries.twig', array(
     'countries' => $countries,
-    'fbAppID' => 44444,
+    'fbAppID' => $config['fbAppID'],
     'siteUrl' => rtrim($config['siteUrl'], '/') . '/'
 ));
