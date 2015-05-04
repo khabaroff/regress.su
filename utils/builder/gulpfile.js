@@ -188,18 +188,19 @@ gulp.task('shares', function (callback) {
             countryName = country.name,
             shareSharePart = country.share
 
+        var pagename = path.basename(countryImage.toLowerCase(), '.jpg').replace(/_+/g, '-')
+
         var html = template.render({
             siteUrl: '/',
             sharePart: shareSharePart,
             countryName: countryName,
-            countryImage: countryImage
+            countryImage: countryImage,
+            countrySlug: pagename
         })
 
-        var filename = path.basename(countryImage.toLowerCase(), '.jpg').replace(/_+/g, '-')
+        sharePages.push(pagename)
 
-        sharePages.push(filename)
-
-        fs.writeFileSync(path.join(countryTemplate.outPath, filename + '.html'), html)
+        fs.writeFileSync(path.join(countryTemplate.outPath, pagename + '.html'), html)
     })
 
     fs.writeFileSync(countryTemplate.pagesListJSON, JSON.stringify(sharePages))
