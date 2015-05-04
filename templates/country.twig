@@ -10,18 +10,22 @@
 
         <div class="country-likes">
             {% set shareLink = (siteUrl ~ country.slug) | url_encode %}
+            {% set shareText =  ('Прогресс упадет ' ~ country.share)|url_encode %}
 
-            <a href="{{ 'http://www.facebook.com/dialog/feed?' ~ 'app_id=' ~ fbAppID ~ '&link=' ~ shareLink ~ '&redirect_uri=' ~ (siteUrl|url_encode ~ 'static/html/self-close.html'|url_encode) }}"
+            <a href="{{ 'http://www.facebook.com/dialog/feed?' ~ 'app_id=' ~ fbAppID ~ '&link=' ~ shareLink
+                ~ '&redirect_uri=' ~ (siteUrl|url_encode ~ 'static/html/self-close.html'|url_encode) ~ '&display=popup' }}"
                class="social-link socialLink" target="_blank">
                 <span class="social-icon social-icon--fb"></span><span class="likes-count likesCount" data-social="fb">222</span>
             </a>
 
-            <a href="{{ 'http://vk.com/share.php?url' ~ shareLink }}"
+            <a href="{{ 'http://vk.com/share.php?noparse=true&url=' ~ shareLink
+                ~ '&title=' ~ shareText ~ '&description=' ~ ('Выбери свой вариант'|url_encode)
+                ~ '&image=' ~ ('http://regress.su/static/img/share.png'|url_encode) }}"
                class="social-link socialLink" target="_blank">
                 <span class="social-icon social-icon--vk"></span><span class="likes-count likesCount" data-social="vk">11</span>
             </a>
 
-            <a href="{{ 'http://twitter.com/share?url=' ~ shareLink ~ '&text=' ~ ('Прогресс упадет ' ~ country.share)|url_encode }}"
+            <a href="{{ 'http://twitter.com/share?url=' ~ shareLink ~ '&text=' ~ shareText }}"
                class="social-link socialLink" target="_blank">
                 <span class="social-icon social-icon--twitter"></span><span class="likes-count likesCount" data-social="twitter">8</span>
             </a>
