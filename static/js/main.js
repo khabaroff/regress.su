@@ -17,7 +17,9 @@
         }
 
         var $countries = $('.countryItem'),
-            countriesLikeSums = {}
+            countriesLikeSums = {},
+            countryLikesMaxCount = 0,
+            countryLikesMaxData = undefined
 
         $countries.each(function () {
             var $country = $(this),
@@ -37,6 +39,15 @@
 
             $country.find('.countryCounter').text(likeSum)
             countriesLikeSums[country] = likeSum
+
+            if (likeSum > countryLikesMaxCount) {
+                countryLikesMaxCount = likeSum
+                countryLikesMaxData = {slug: country, $el: $country}
+            }
         })
+
+        if (countryLikesMaxCount && countryLikesMaxData) {
+            $('.leaderName').text(countryLikesMaxData.$el.find('.countryName').text())
+        }
     })
 })(jQuery)
