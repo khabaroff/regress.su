@@ -8,7 +8,7 @@ require_once 'lib/SocialLikes/VK.php';
 require_once 'lib/SocialLikes/FB.php';
 require_once 'lib/SocialLikes/Twitter.php';
 
-VK::$appId = 4527934;
+VK::$appId = $config['vkAppID'];
 
 $pages_likes = array();
 
