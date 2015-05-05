@@ -45,8 +45,6 @@ $siteUrl = rtrim($config['siteUrl'], '/') . '/';
 
 foreach ($pages_names_list AS $i => $page_name)
 {
-    if ($i >= 3) break;
-
     debug('VK');
     $vkLikes = VK::likes($siteUrl . $page_name);
 
