@@ -1,20 +1,24 @@
 <?
 require_once 'SocialNetwork.class.php';
 
-class FB implements SocialNetwork
+class Twitter implements SocialNetwork
 {
     public static function likes($site_page)
     {
         try
         {
-            $response = @file_get_contents('http://graph.facebook.com/' . urlencode($site_page));
+            $query = http_build_query(array(
+                'url' => $site_page
+            ));
+
+            $response = @file_get_contents('http://urls.api.twitter.com/1/urls/count.json?' . $query);
 
             if (!$response OR !$response = json_decode($response, true))
             {
                 throw new Exception('empty');
             }
 
-            if (empty($response['shares']))
+            if (empty($response['count']))
             {
                 throw new Exception('empty');
             }
@@ -24,6 +28,6 @@ class FB implements SocialNetwork
             return 0;
         }
 
-        return (float)$response['shares'];
+        return (float)$response['count'];
     }
 }

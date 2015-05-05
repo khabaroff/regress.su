@@ -7,6 +7,8 @@ class VK implements SocialNetwork
 
     public static function likes($site_page)
     {
+        global $debug;
+
         $query = http_build_query(array(
             'type' => 'sitepage',
             'owner_id' => static::$appId,
@@ -22,6 +24,12 @@ class VK implements SocialNetwork
             if (!$response OR !$response = json_decode($response, true))
             {
                 throw new Exception('empty');
+            }
+
+            if ($debug)
+            {
+                debug('VK Response:');
+                debug(print_r($response, true));
             }
 
             if (!empty($response['error']))
