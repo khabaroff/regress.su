@@ -5,6 +5,11 @@ include 'config.php';
 $write_json = true;
 $debug = false;
 
+if (!$previous_likes = file_get_contents($config['countriesLikesJSON']) OR !$previous_likes = json_decode($previous_likes, true))
+{
+    $previous_likes = array();
+}
+
 if(!empty($argv[1]))
 {
     $pages_names_list = array(trim($argv[1]));
@@ -40,14 +45,31 @@ $siteUrl = rtrim($config['siteUrl'], '/') . '/';
 
 foreach ($pages_names_list AS $i => $page_name)
 {
+    if ($i >= 3) break;
+
     debug('VK');
     $vkLikes = VK::likes($siteUrl . $page_name);
+
+    if (!$vkLikes AND !empty($previous_likes[$page_name]['vk']))
+    {
+        $vkLikes = $previous_likes[$page_name]['vk'];
+    }
 
     debug('FB');
     $fbLikes = FB::likes($siteUrl . $page_name);
 
+    if (!$fbLikes AND !empty($previous_likes[$page_name]['fb']))
+    {
+        $fbLikes = $previous_likes[$page_name]['fb'];
+    }
+
     debug('Twitter');
     $twLikes = Twitter::likes($siteUrl . $page_name);
+
+    if (!$twLikes AND !empty($previous_likes[$page_name]['twitter']))
+    {
+        $twLikes = $previous_likes[$page_name]['twitter'];
+    }
 
     $likes = array(
         'vk'      => $vkLikes,
